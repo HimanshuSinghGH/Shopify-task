@@ -20,6 +20,14 @@ function Card(props) {
           <p>{props.result.response}</p>
         </Col>
       </Row>
+      <Row>
+        <Col md="2">
+          <h6>AI Engine</h6>
+        </Col>
+        <Col md="10">
+          <p>{props.result.engine}</p>
+        </Col>
+      </Row>
     </div>
 )} ;
 
